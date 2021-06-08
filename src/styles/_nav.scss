@@ -1,0 +1,24 @@
+.nav {
+  list-style: none;
+  display: flex;
+  margin-bottom: 40px;
+
+  &__item {
+    margin-left: 73px;
+  }
+
+  &__link {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  &__link:hover {
+    color: #8a5137;
+  }
+}
