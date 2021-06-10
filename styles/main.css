@@ -84,6 +84,9 @@ h1 {
     text-align: center;
     color: #fff;
     margin-top: 35px; }
+  @media screen and (max-width: 375px) {
+    .main-content__nav-col {
+      display: none; } }
 
 .nav {
   list-style: none;
@@ -105,6 +108,114 @@ h1 {
     transition: 0.5s; }
   .nav__link:hover {
     color: #8a5137; }
+
+.description {
+  background: #000;
+  padding-top: 140px;
+  height: 435px; }
+  .description__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .description__text {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px; }
+  .description__img {
+    position: relative;
+    top: -245px;
+    left: 45px; }
+
+.product {
+  background: #fff; }
+  .product__img {
+    background: url(../images/vector.png) no-repeat;
+    background-position: 20% -30%; }
+  .product__img img {
+    position: relative;
+    left: -45px;
+    top: 40px; }
+  .product__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .product__header {
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    color: #000;
+    margin-top: 206px; }
+  .product__review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px; }
+  .product__review--text {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 125.5%;
+    color: #000;
+    margin-right: 10px; }
+  .product__review--star {
+    margin-right: 4px; }
+  .product__text {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 170%;
+    text-align: center;
+    color: #000;
+    margin-top: 27px; }
+  .product__price {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    margin-top: 20px; }
+  .product__old-price {
+    font-size: 20px;
+    opacity: 0.5;
+    margin-right: 20px;
+    text-decoration: line-through; }
+  .product__button {
+    background: #000;
+    padding: 23px 118px;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff; }
 
 body {
   padding: 0;
