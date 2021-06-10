@@ -71,4 +71,10 @@
     color: #fff;
     margin-top: 35px;
   }
+
+  @media screen and (max-width: 375px) {
+    &__nav-col {
+      display: none;
+    }
+  }
 }
