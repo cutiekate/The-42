@@ -67,7 +67,7 @@ h1 {
         -ms-flex-align: center;
             align-items: center; }
   .main-content__header {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins Light, sans-serif;
     font-weight: 300;
     font-size: 36px;
     line-height: 140%;
@@ -131,7 +131,7 @@ h1 {
         -ms-flex-align: center;
             align-items: center; }
   .description__text {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins Light, sans-serif;
     font-weight: 300;
     font-size: 22px;
     line-height: 170%;
@@ -167,7 +167,7 @@ h1 {
         -ms-flex-align: center;
             align-items: center; }
   .product__header {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins Light, sans-serif;
     font-weight: 200;
     font-size: 40px;
     line-height: 130%;
@@ -236,6 +236,58 @@ h1 {
     line-height: 120%;
     text-align: center;
     color: #fff; }
+
+.how-to-use {
+  background: #fef6f3; }
+  .how-to-use__header {
+    font-family: Poppins Light, sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    background: url(../images/how-to-use.png) no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 45px; }
+  .how-to-use__step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 128px; }
+  .how-to-use__icons {
+    background: url(../images/ellipse.png) no-repeat;
+    width: 124px;
+    height: 124px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .how-to-use__desc {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    margin-top: 17px; }
+
+.testimonials {
+  background: #fff; }
 
 body {
   padding: 0;
